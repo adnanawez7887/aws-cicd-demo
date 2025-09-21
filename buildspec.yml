@@ -1,16 +1,9 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - echo "Installing dependencies (none for static site)"
   build:
     commands:
-      - echo "Build started on $(date)"
-      - echo "Build completed successfully"
-
+      - echo "Hello from CodeBuild"
 artifacts:
   files:
     - index.html
-    - appspec.yml
-    - scripts/*
